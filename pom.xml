@@ -4,7 +4,7 @@
 
     <groupId>com.jvilaverde.beers</groupId>
     <artifactId>brewery-bom</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.4</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -158,7 +158,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/jvilaverde/brewery-bom.git</developerConnection>
         <url>https://github.com/jvilaverde/brewery-bom</url>
-        <tag>HEAD</tag>
+        <tag>brewery-bom-0.0.4</tag>
     </scm>
 
     <build>
