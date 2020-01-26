@@ -1,0 +1,17 @@
+<settings>
+    <servers>
+        <server>
+            <id>packagecloud.release</id>
+            <password>${env.PCLOUD}</password>
+        </server>
+        <server>
+            <id>packagecloud.snapshot</id>
+            <password>${env.PCLOUD}</password>
+        </server>
+        <server>
+            <id>github</id>
+            <username>jvilaverde</username>
+            <password>${env.GIT_PWD}</password>
+        </server>
+    </servers>
+</settings>
